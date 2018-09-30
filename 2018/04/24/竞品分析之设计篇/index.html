@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="K12在线教育移动端竞品分析-设计篇  通过使用了多款市面上的青少教育移动产品，从以下几个方面来总结，并举例了一些经典案例，文中也给出了一些我们可以借鉴的建议，希望能对我们日后的产品设计提供帮助。  跳板式导航很多青少化的产品采用的是跳板式的导航 特点：模块／区块化特征较明显，大多数布局排版采用的是跳板式导航布局 分析原因 1、用户层面：青少化的产品用户都是儿童，儿童使用物品的特点是喜欢“试”，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="竞品分析之设计篇">
+<meta property="og:url" content="http://yoursite.com/2018/04/24/竞品分析之设计篇/index.html">
+<meta property="og:site_name" content="Zhangyan的小站">
+<meta property="og:description" content="K12在线教育移动端竞品分析-设计篇  通过使用了多款市面上的青少教育移动产品，从以下几个方面来总结，并举例了一些经典案例，文中也给出了一些我们可以借鉴的建议，希望能对我们日后的产品设计提供帮助。  跳板式导航很多青少化的产品采用的是跳板式的导航 特点：模块／区块化特征较明显，大多数布局排版采用的是跳板式导航布局 分析原因 1、用户层面：青少化的产品用户都是儿童，儿童使用物品的特点是喜欢“试”，">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/img/封面/竞品分析之设计篇.png">
+<meta property="og:updated_time" content="2018-09-30T03:47:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="竞品分析之设计篇">
+<meta name="twitter:description" content="K12在线教育移动端竞品分析-设计篇  通过使用了多款市面上的青少教育移动产品，从以下几个方面来总结，并举例了一些经典案例，文中也给出了一些我们可以借鉴的建议，希望能对我们日后的产品设计提供帮助。  跳板式导航很多青少化的产品采用的是跳板式的导航 特点：模块／区块化特征较明显，大多数布局排版采用的是跳板式导航布局 分析原因 1、用户层面：青少化的产品用户都是儿童，儿童使用物品的特点是喜欢“试”，">
+<meta name="twitter:image" content="http://yoursite.com/img/封面/竞品分析之设计篇.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/04/24/竞品分析之设计篇/"/>
+
+
+
+
+
+  <title>竞品分析之设计篇 | Zhangyan的小站</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Zhangyan的小站</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/24/竞品分析之设计篇/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Zhangyan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Zhangyan的小站">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">竞品分析之设计篇</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-24T09:43:45+08:00">
+                2018-04-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  3,347
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  11
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="/img/封面/竞品分析之设计篇.png" rel="gallery_cjmobtg8k0003ljs6bw0didfw"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="/img/封面/竞品分析之设计篇.png" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
+      
+
+      
+        <blockquote>
+<p>K12在线教育移动端竞品分析-设计篇</p>
+</blockquote>
+<p>通过使用了多款市面上的青少教育移动产品，从以下几个方面来总结，并举例了一些经典案例，文中也给出了一些我们可以借鉴的建议，希望能对我们日后的产品设计提供帮助。</p>
+<p><img src="/img/竞品分析之设计篇/引子.png" alt="引子"></p>
+<h1 id="跳板式导航"><a href="#跳板式导航" class="headerlink" title="跳板式导航"></a>跳板式导航</h1><p>很多青少化的产品采用的是跳板式的导航</p>
+<p>特点：模块／区块化特征较明显，大多数布局排版采用的是<font color="#0365C0">跳板式导航布局</font></p>
+<p>分析原因</p>
+<p>1、用户层面：青少化的产品用户都是儿童，儿童使用物品的特点是喜欢“试”，<font color="#0365C0">他们更喜欢成块的直观可操作的东西，看起来可点的内容</font>。同时儿童无法像成人一样承载过多的信息， 复杂的列表和表格，过多的文字都不是合适的。如若产品的用户是家长，以孩子的心态来设计也会让家长感受到，我们是“懂”孩子的。</p>
+<p>2、技术层面：模块化组件化的功能，对于开发来说<font color="#0365C0">通用性和拓展性</font>都很高。</p>
+<p>3、设计层面：跳板式导航在图形和色彩上有很大的发挥空间，可以做出很多细节和好看的样式。结合卡片式的设计，<font color="#0365C0">可以将不同信息以统一的方式进行混合呈现</font>，另一方面卡片可以很容易放大和缩小，来做<font color="#0365C0">响应式</font>的设计。</p>
+<p>跳板式导航常见的布局形式是3＊3，2＊3，2＊2，1＊2的网格，但跳板式导航不一定非要拘泥于网格布局，可以成比例放大某些选项，以彰显重要性</p>
+<p><img src="/img/竞品分析之设计篇/跳板式.png" alt="跳板式"></p>
+<p>1、在这类导航排版布局方面运用的非常广泛的几个例子</p>
+<p>【作业盒子小学】</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子跳板1.png" alt="作业盒子跳板1"></p>
+<p>同时，【作业盒子小学 】各模块并不是于只是方块的排列，区块形式有比较多的变化</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子跳板2.png" alt="作业盒子跳板2"></p>
+<p>【作业盒子中学】</p>
+<p>虽然都是模块化，由于中学是年龄大一点的学生，在视觉上花样就少了许多</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子跳板3.png" alt="作业盒子跳板3"></p>
+<p>【宝宝玩英语】</p>
+<p>风格类似iOS11商店的风格，受众年龄偏低（5岁以下）色彩多粉嫩，多为卡片的形态</p>
+<p><img src="/img/竞品分析之设计篇/宝宝玩英语.png" alt="宝宝玩英语"></p>
+<p>2、跳板式导航可以<font color="#0365C0">不是固定方块</font>的形式，例如【多纳学英语】，其实也是区块化的跳板导航</p>
+<p><img src="/img/竞品分析之设计篇/多纳学英语.png" alt="多纳学英语"></p>
+<p>3、跳板式导航不一定非要拘泥于网格布局，可以<font color="#0365C0">成比例放大某些选项，以彰显重要性</font></p>
+<p>【叽里呱啦】在6.7.0以前的版本首页的区块，有很明显的占比不同</p>
+<p>这样类似WP的排版布局，但是存在问题就是：</p>
+<p>1、很难衡量各个模块的重要性，让有的模块小，有的模块大<br>2、若形状不一，扩展性差</p>
+<p><img src="/img/竞品分析之设计篇/叽里呱啦.png" alt="叽里呱啦"></p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>1、在模块化较明显的项目上可以多利用跳板式导航，如：首页、课程详情、个人中心</p>
+<p>2、跳板式导航往往成网格状，同时也可以成比例放大某些项，来突出重要性，但要考虑清楚</p>
+<p>3、视觉上建议可以多参考【作业盒子小学】。因为他运用的很广泛，同时形式具有多样性；作业盒子小学和我们用户的年龄是相同，其他产品的受众用户年龄偏低（5岁以下）不建议采纳。</p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><p>表格在呈现在移动端是一个比较考验设计能力的方面，难于如何将一个信息量大的表格塞入移动应用，还能让人高效的看明白，总结了在移动端比较常用出的几种表格方式，以及教育行业运用的案例</p>
+<p><img src="/img/竞品分析之设计篇/表格.png" alt="表格"></p>
+<p>我在目前教育产品上很少见固定列的方式，通常用在处理表格的地方</p>
+<p>1、基本表格</p>
+<p>基本表格模式就是带有固定表头及网格布局的标准表格，适用于任何需要信息罗列的场景，如：列表、课表、排行榜</p>
+<p>【abc360】</p>
+<p>面对比较长的数据表格，采用了灰／白相间的形式来便于阅读，增强了可读性，单一的表格颜色容易看串</p>
+<p><img src="/img/竞品分析之设计篇/abc360.png" alt="abc360"></p>
+<p>【乐词】 </p>
+<p>成员姓名过长，采用的“…”的方式，保证了表格的对齐，增强了可读性</p>
+<p><img src="/img/竞品分析之设计篇/乐词.png" alt="乐词"></p>
+<p>2、表格有内容预览或数据</p>
+<p>概览加数据表格的特点是，表的内容的摘要显示在第一行数据上方，常见的场景时是成绩报告、学习报告、统计表</p>
+<p>【作业盒子-教师端】</p>
+<p>顶部是全班的平均正确率数字，底部是每个学生的学习状况<br>具体每个人的正确率和用时右对齐</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子教师.png" alt="作业盒子教师"></p>
+<p>【有道背单词】</p>
+<p>顶部学习的单词数据<br>下面是具体每个词的学习掌握情况</p>
+<p><img src="/img/竞品分析之设计篇/有道背单词.png" alt="有道背单词"></p>
+<p>3、分组</p>
+<p>一组作为多组的节区头部，是比较常见的行分组的方式，适合于信息较多，同时又比较容易归纳分类</p>
+<p>从视觉上将表格的汇总行和其他行区分开来，一般而言，汇总行较窄，颜色较浅</p>
+<p>【沪江开心词场】</p>
+<p><img src="/img/竞品分析之设计篇/沪江开心词场.png" alt="沪江开心词场"></p>
+<p>另一种分组方式是<font color="#0365C0">按类分组</font></p>
+<p>【卡片算术】</p>
+<p>产品如其名，表格也是以卡片的方式来分组展示<br>一个卡片就是一个行，同时表格内的信息也是分左右分组显示</p>
+<p><img src="/img/竞品分析之设计篇/卡片算术.png" alt="卡片算术"></p>
+<p>【魔力耳朵】（公众号）</p>
+<p>在约课上，左侧分组一个简单的“早”“晚”，将约课时间划分成两块，可读性高<br>但同时因为他们的约课时间少，比较适合这种方式，我们的约课可以尝试，但不一定适合</p>
+<p><img src="/img/竞品分析之设计篇/魔力耳朵.png" alt="魔力耳朵"></p>
+<h2 id="小结-1"><a href="#小结-1" class="headerlink" title="小结"></a>小结</h2><p>1、设置不同的表格行颜色（斑马线），或在两行之间用细线分割，提高表格可读性</p>
+<p>2、要保证表格内容的对齐，提高表格可读性</p>
+<p>3、可以尝试在“约课”表格上采用分组的形式，来提高表格可读性</p>
+<p>4、要了解每一种表格的特点，当页面需要用表格来表达时，思考信息内容适合运用哪种表格</p>
+<h1 id="资源图片的处理"><a href="#资源图片的处理" class="headerlink" title="资源图片的处理"></a>资源图片的处理</h1><p>特点：当遇到低质量的资源图片时，不加处理会让页面看起来杂乱无章，丑陋，质量很低。多出现在公开课、绘本</p>
+<p>遇到两种给资源图片加相同装饰的处理办法</p>
+<p>1、加上边框  2、增加蒙层</p>
+<p>【伴鱼英语少儿版】</p>
+<p>绘本都加上了书本统一的边框</p>
+<p><img src="/img/竞品分析之设计篇/伴鱼英语少儿版.png" alt="伴鱼英语少儿版"></p>
+<p>【ABCtime】</p>
+<p>绘本都加上了书本统一的边框</p>
+<p><img src="/img/竞品分析之设计篇/ABCtime.png" alt="ABCtime"></p>
+<p>ps：这两个例子同样也是隐喻的运用</p>
+<p>【VIPKID】</p>
+<p>花哨的课程封面增加了灰色蒙层，来营造统一性</p>
+<p><img src="/img/竞品分析之设计篇/VIPKID.png" alt="VIPKID"></p>
+<p>【作业盒子小学】</p>
+<p>花哨的课程封面增加了灰色蒙层，来营造统一性</p>
+<p>蒙层另一个主要目的是：来表达课程还未解锁，未开始</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子蒙层.png" alt="作业盒子蒙层"></p>
+<h1 id="引导和提示"><a href="#引导和提示" class="headerlink" title="引导和提示"></a>引导和提示</h1><p>引导提示多为视觉吸引，通常在用户第一次打开某个应用，或进入某个界面是出现。好的视觉吸引，能把第一次的使用经历变成满意的产品使用体验，移动端引导提示模式有：</p>
+<p><img src="/img/竞品分析之设计篇/引导和提示.png" alt="引导和提示"></p>
+<p>1、气泡提示<br>气泡提示比较常见，它可以出现在屏幕的任何位置，比对话框更能融入场景</p>
+<p><img src="/img/竞品分析之设计篇/气泡提示.png" alt="气泡提示"></p>
+<p>2、幻灯片<br>幻灯片通常伴有灰色蒙层，蒙层上是想要强调的功能，是比较场景的手段。但是想要说明功能切忌过多，尤其是第一次使用，因为用户无法一下记住这么多说明，很容易使用户忽略</p>
+<p><img src="/img/竞品分析之设计篇/幻灯片.png" alt="幻灯片"></p>
+<p>【沪江开心词场】<br>一次提示了三个功能的改变</p>
+<p><img src="/img/竞品分析之设计篇/沪江开心词场提示三个功能.png" alt="沪江开心词场提示三个功能"></p>
+<p>除了蒙层的提示，还有一个特别有意思的提示，可以看到改版前的功能位于页面最下方，根据用户习惯，使用功能需要向下划。改版后向下划就能看到一条说明，在不打扰用户的前提下，以一种很顺畅合理的方式提醒了用户</p>
+<p>2、可交互的提示</p>
+<p>可交互的提示尤其是在游戏的新手引导中非常受用，可以让用户在直观的操作中学习使用方法。<br>一般有1、交互说明文字 2、可交互操作的内容，两部分组成</p>
+<p><img src="/img/竞品分析之设计篇/可交互提示.png" alt="可交互提示"></p>
+<h1 id="隐喻的运用"><a href="#隐喻的运用" class="headerlink" title="隐喻的运用"></a>隐喻的运用</h1><p>1、在设计界面的时候，可以抽象出当前页面对应的现实世界的场景，进行设计。</p>
+<p>2、我们的产品中很多地方建议可以采用隐喻的方式，如绘本馆，学习报告，选择教材 ……</p>
+<p><img src="/img/竞品分析之设计篇/隐喻.png" alt="隐喻"></p>
+<p>【作业盒子小学】运用的非常广泛，在此只举几个列子</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子隐喻1.png" alt="作业盒子隐喻1"></p>
+<p>另一处：</p>
+<p>说明文字，没有简单摆放文字，而是做成了小贴士的样子，加以配图能更好的说明<br>按钮风格是扁平的，但是做成了类似现实世界的按钮样子，更生动，突出了让用户去点击</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子隐喻2.png" alt="作业盒子隐喻2"></p>
+<p>【多邻国】【作业帮】</p>
+<p><img src="/img/竞品分析之设计篇/隐喻3.png" alt="隐喻3"></p>
+<p>【RunFoxEnglish】本身课程是类似于动画故事，课程做成了故事画册的样子</p>
+<p><img src="/img/竞品分析之设计篇/隐喻4.png" alt="隐喻4"></p>
+<p>【RunMarco】</p>
+<p>幼儿编程学习产品，需要写下操作内容，控制人物行动</p>
+<p>左侧是安排操作的区域，做成了笔记本的样子，页签是可以展开的区域。易于理解又生动</p>
+<p><img src="/img/竞品分析之设计篇/隐喻5.png" alt="隐喻5"></p>
+<h1 id="形象的运用"><a href="#形象的运用" class="headerlink" title="形象的运用"></a>形象的运用</h1><p>【作业盒子】的卡通形象是一支大象，产品内随处可见形象的应用，缺点是个别形象的运用缺乏统一性，例如多处大象是没有线框并且皮肤<br>带有渐变，加载动画的形象却是一只颜色较浅有线框的大象</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子形象1.png" alt="作业盒子形象1"></p>
+<p><img src="/img/竞品分析之设计篇/作业盒子形象2.png" alt="作业盒子形象2"></p>
+<p>【多邻国】的形象是一只绿色的猫头鹰，她们的优点：</p>
+<p>1、和当前页面信息的关联性很强       2、形象的体态和穿着更丰富</p>
+<p><img src="/img/竞品分析之设计篇/多邻国.png" alt="多邻国"></p>
+<h2 id="小结-2"><a href="#小结-2" class="headerlink" title="小结"></a>小结</h2><p>1、可以多运用卡通形象来增加童趣和画面感</p>
+<p>2、但需要注意当前卡通需要与当前产品场景相关联相匹配，如：若当前是“失败状态”，画一只开心的挥手的小猴子就不合适</p>
+<h1 id="听觉的运用"><a href="#听觉的运用" class="headerlink" title="听觉的运用"></a>听觉的运用</h1><p>特点：通常越低龄的青少化产品，或越游戏化的产品，越是有丰富的听觉反馈<br>比较常见的有以下几种：1、背景音乐  2、操作后声音的反馈 3、push的声音</p>
+<p>知道有几款产品的push声音不是默认声音，此处无法示意，平时可以观察一下：</p>
+<p>1、凯叔讲故事<br>2、狸米学习</p>
+<h1 id="动效的运用"><a href="#动效的运用" class="headerlink" title="动效的运用"></a>动效的运用</h1><p>1、页面过场动画</p>
+<p>【沪江开心词场】<br>页面的过场动画有一个圆圈收回的动感</p>
+<p><img src="/img/竞品分析之设计篇/视频1.gif" alt="视频1"></p>
+<p>【洪恩识字】<br>页面的过场动画如同动画片般有趣</p>
+<p><img src="/img/竞品分析之设计篇/视频2.gif" alt="视频2"></p>
+<p>2、为页面增加童趣和画面感的装饰</p>
+<p>【作业盒子小学】<br>画面动感十足，如第一个页面，树叶在晃，钟表在走，形象在动，显得画面很童趣有意思</p>
+<p><img src="/img/竞品分析之设计篇/视频3.gif" alt="视频3"></p>
+<p>【儿童英语】<br>画面细节都在动，非常有气氛</p>
+<p><img src="/img/竞品分析之设计篇/视频4.gif" alt="视频4"></p>
+<p>3、动态视觉吸引</p>
+<p>【作业盒子小学】<br>宝箱晃动，按钮在闪，不自觉就吸引了用户去点击，吸引力极强让人去关注</p>
+<p><img src="/img/竞品分析之设计篇/视频5.gif" alt="视频5"></p>
+<p>【猿辅导】<br>加载中没有用简单的文字，而是用了一只在飞得猴子</p>
+<p><img src="/img/竞品分析之设计篇/视频6.gif" alt="视频6"></p>
+<h1 id="动效的运用-1"><a href="#动效的运用-1" class="headerlink" title="动效的运用"></a>动效的运用</h1><p>场景的设定</p>
+<p>场景的设定，没有什么多余说的，主要是来看视觉参考，列举一些值得参考的场景</p>
+<p>【学而思云学习】</p>
+<p><img src="/img/竞品分析之设计篇/学而思.png" alt="学而思"></p>
+<p>【沪江开心词场】</p>
+<p>竖版的闯关可以借鉴</p>
+<p><img src="/img/竞品分析之设计篇/沪江闯关.png" alt="沪江闯关"></p>
+<p>【儿童英语】【英语总动员】横版的闯关可以借鉴，风格偏向拟物</p>
+<p><img src="/img/竞品分析之设计篇/儿童英语.png" alt="儿童英语"></p>
+<p>【作业盒子小学】</p>
+<p><img src="/img/竞品分析之设计篇/作业盒子场景.png" alt="作业盒子场景"></p>
+<p>【ABCmouse】</p>
+<p><img src="/img/竞品分析之设计篇/ABCmouse.png" alt="ABCmouse"></p>
+<p>【洪恩识字】</p>
+<p><img src="/img/竞品分析之设计篇/洪恩识字.png" alt="洪恩识字"></p>
+<h1 id="青少感的设计总结"><a href="#青少感的设计总结" class="headerlink" title="青少感的设计总结"></a>青少感的设计总结</h1><p><img src="/img/竞品分析之设计篇/总结.png" alt="总结"></p>
+<p>1、注意用户场景</p>
+<p>要判断当前页面的使用者是孩子还是家长，来做差异化的设计<br>受众是孩子，简单易懂有趣是重点，即是受众是家长也需要增加童趣感，因为这样才能让家长知道我们是专业的、懂孩子</p>
+<p>2、UI设计方法</p>
+<p>无论是否设计的是青少化教育产品，都需要这方面多学习和沉淀，文中只是列举了常见的设计模式：导航、表格、提示，并且在大多教育产品中可以看到；其他没提及的设计模式还很多诸如：筛选、工具、帮助……</p>
+<p>3、图形选用要更有趣，颜色选用要更鲜亮</p>
+<p>使用鲜亮的颜色和有趣的形象、画面，可以增加童趣提升青少化</p>
+<p>4、要增加多感官的设计</p>
+<p>我们现在的产品缺乏了一点动态感，听觉和视觉上还都有很大的发挥空间</p>
+<p>写了很多也都是管中窥豹，需要我们平时多看多学习总结，有的做的很好但也有不足，，好的地方记下来，不好的地方也记下来避免出现。列出上文中出现的所有产品，建议平常没事多使用多体验</p>
+<p><img src="/img/竞品分析之设计篇/icon1.png" alt="icon1"></p>
+<p><img src="/img/竞品分析之设计篇/icon2.png" alt="icon2"></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/21/竞品分析之产品篇/" rel="next" title="竞品分析之产品篇">
+                <i class="fa fa-chevron-left"></i> 竞品分析之产品篇
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Zhangyan</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#跳板式导航"><span class="nav-number">1.</span> <span class="nav-text">跳板式导航</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number">1.1.</span> <span class="nav-text">小结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#表格"><span class="nav-number">2.</span> <span class="nav-text">表格</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#小结-1"><span class="nav-number">2.1.</span> <span class="nav-text">小结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#资源图片的处理"><span class="nav-number">3.</span> <span class="nav-text">资源图片的处理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引导和提示"><span class="nav-number">4.</span> <span class="nav-text">引导和提示</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#隐喻的运用"><span class="nav-number">5.</span> <span class="nav-text">隐喻的运用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#形象的运用"><span class="nav-number">6.</span> <span class="nav-text">形象的运用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#小结-2"><span class="nav-number">6.1.</span> <span class="nav-text">小结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#听觉的运用"><span class="nav-number">7.</span> <span class="nav-text">听觉的运用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#动效的运用"><span class="nav-number">8.</span> <span class="nav-text">动效的运用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#动效的运用-1"><span class="nav-number">9.</span> <span class="nav-text">动效的运用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#青少感的设计总结"><span class="nav-number">10.</span> <span class="nav-text">青少感的设计总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zhangyan</span>
+
+  
+</div>
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="K12移动端教育产品的竞品分析之产品篇  概述1、分析目标：为了全面得了解用户和市场，做出靠谱的产品；分析K12在线教育产移动端产品的特点，对日后的产品发展做参考价值，让自己的产品在竞争中脱颖而出。 2、分析样本的选取：将市场上的K12教育产品总结为几种分类，并从每种类型中挑选出比较出色的App进行分析。 3、分析方法：战略层-产品定位策略、目标用户群体（市场数据来自ASO100和艾瑞数据）范围">
+<meta property="og:type" content="article">
+<meta property="og:title" content="竞品分析之产品篇">
+<meta property="og:url" content="http://yoursite.com/2018/03/21/竞品分析之产品篇/index.html">
+<meta property="og:site_name" content="Zhangyan的小站">
+<meta property="og:description" content="K12移动端教育产品的竞品分析之产品篇  概述1、分析目标：为了全面得了解用户和市场，做出靠谱的产品；分析K12在线教育产移动端产品的特点，对日后的产品发展做参考价值，让自己的产品在竞争中脱颖而出。 2、分析样本的选取：将市场上的K12教育产品总结为几种分类，并从每种类型中挑选出比较出色的App进行分析。 3、分析方法：战略层-产品定位策略、目标用户群体（市场数据来自ASO100和艾瑞数据）范围">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/img/封面/竞品分析之产品篇.png">
+<meta property="og:updated_time" content="2018-09-30T03:48:21.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="竞品分析之产品篇">
+<meta name="twitter:description" content="K12移动端教育产品的竞品分析之产品篇  概述1、分析目标：为了全面得了解用户和市场，做出靠谱的产品；分析K12在线教育产移动端产品的特点，对日后的产品发展做参考价值，让自己的产品在竞争中脱颖而出。 2、分析样本的选取：将市场上的K12教育产品总结为几种分类，并从每种类型中挑选出比较出色的App进行分析。 3、分析方法：战略层-产品定位策略、目标用户群体（市场数据来自ASO100和艾瑞数据）范围">
+<meta name="twitter:image" content="http://yoursite.com/img/封面/竞品分析之产品篇.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/03/21/竞品分析之产品篇/"/>
+
+
+
+
+
+  <title>竞品分析之产品篇 | Zhangyan的小站</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Zhangyan的小站</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/21/竞品分析之产品篇/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Zhangyan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Zhangyan的小站">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">竞品分析之产品篇</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-21T22:32:47+08:00">
+                2018-03-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  4,903
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  17
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          
+          
+            <div class="post-gallery-row">
+              <a class="post-gallery-img fancybox"
+                 href="/img/封面/竞品分析之产品篇.png" rel="gallery_cjmobtg640002ljs6bu6d1fwj"
+                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+                <img src="/img/封面/竞品分析之产品篇.png" itemprop="contentUrl"/>
+              </a>
+            
+          
+
+          
+          </div>
+        </div>
+      
+
+      
+        <blockquote>
+<p>K12移动端教育产品的竞品分析之产品篇</p>
+</blockquote>
+<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>1、分析目标：<br>为了全面得了解用户和市场，做出靠谱的产品；分析K12在线教育产移动端产品的特点，对日后的产品发展做参考价值，让自己的产品在竞争中脱颖而出。</p>
+<p>2、分析样本的选取：<br>将市场上的K12教育产品总结为几种分类，并从每种类型中挑选出比较出色的App进行分析。</p>
+<p>3、分析方法：<br>战略层-产品定位策略、目标用户群体（市场数据来自ASO100和艾瑞数据）<br>范围层-核心功能<br>表现层-视觉设计<br>结构层-信息架构、交互设计<br>总结产品优缺点</p>
+<h1 id="详细分析"><a href="#详细分析" class="headerlink" title="详细分析"></a>详细分析</h1><p>个人归纳总结在线教育产品大致分为以下几类：</p>
+<p>1）平台型：  主要通过和机构合作或个人老师入驻的形式，向学习者提供在线或点播网络授课。主要通过用户付费购买课程盈利，形式有一对一、一对多、公开课，该类产品之间具有极高的同质化特点。如 VIPKID／哒哒英语／伴鱼英语／沪江网校</p>
+<p><img src="/img/竞品分析之产品篇/平台型.png" alt="平台型"></p>
+<p>2）工具型：  主要通过搜题、答题等方式帮助用户解决学习问题，在工具属性的基础上有些会有社区，外语方面多是背单词的形式 ，该类产品的特点是用户粘度低，替代性强。如作业帮／小猿搜题／百词斩</p>
+<p><img src="/img/竞品分析之产品篇/工具型.png" alt="工具型"></p>
+<p>3）内容服务型：  自主制造高质量内容，希望通过高质量的内容服务用户。盈利模式基本是“基础服务免费，增值服务付费”。如洋葱数学／儿童英语／洪恩绘本<br>其中一部分以益智幼教为主，侧重游戏化学习且涵盖各类学科甚至编程，设计风格鲜明。个人认为游戏化学习是未来素质教育的趋势，并且是能与其他竞争产品拉开差距的亮点，所以想重分析该类产品。如嘟嘟数学／编程王国／悟空识字／洪恩识字／RunFoxEnglish</p>
+<p><img src="/img/竞品分析之产品篇/内容服务型.png" alt="内容服务型"></p>
+<p>4）教育信息化型： 这类产品从家长关心孩子的在校以及归家途中的实时状况需求出发，满足学校与家庭之间的信息交流。 通常有家长、教师、学生多端，如掌通家园／作业盒子／一起作业</p>
+<p><img src="/img/竞品分析之产品篇/教育信息化型.png" alt="教育信息化型"></p>
+<p>5）家教辅导型：传统教育培训结构的线上工具也可以归类于此，主要通过用户付费报名课程，以课程收费来盈利。方便师生同时，充分调动了社会的师资资源。如学而思／轻轻家教／掌门1对1</p>
+<p><img src="/img/竞品分析之产品篇/家教辅导型.png" alt="家教辅导型"></p>
+<p>对应教学场景看各产品的切入点</p>
+<p><img src="/img/竞品分析之产品篇/切入点.png" alt="切入点"></p>
+<h2 id="平台型"><a href="#平台型" class="headerlink" title="平台型"></a>平台型</h2><p>同质化严重，1对1都是先体验课再客服引导，购买后选老师，都有课程回放，公开课等。不是说做的多好，是想写出来看清楚竞争对手发展策略，不做过多分析</p>
+<font color="#0365C0">VIPKID英语-在线少儿英语</font>
+
+<p>1、市场数据<br>手机端 App Store 教育排行榜 78 ，日均下载量在2000-3000之间，iPad端  App Store 教育排行榜 5，日均下载在5000左右，安卓市场总下载累计185万<br>日均独立设备 1万，用户男女比例4:6</p>
+<p>2、产品定位策略及目标用户<br>一开始就专注1对1在线欧美外教教育，目标用户是一二线城市中小学生</p>
+<p>3、认为有一些长处</p>
+<p>1）产品定位比较清晰，有单独iPad端，如果说手机端是家长使用的工具不上课，ipad就是小朋友纯粹的上课工具。<br>2）给体验用户内容更多，可供体验用户了解</p>
+<p><img src="/img/竞品分析之产品篇/VIPKID.png" alt="VIPKID"></p>
+<h2 id="工具型"><a href="#工具型" class="headerlink" title="工具型"></a>工具型</h2><p>与我们产品定位方向不同，不做过多分析，只分析可借鉴的部分</p>
+<font color="#0365C0"> 作业帮-中小学搜题答疑辅导利器</font>
+
+<p>1、市场数据<br>App Store 教育排行榜 长期第1 日均下载量8-9万，应用宝教育类第1 ，安卓平台累计下载量 15亿。日均独立设备数606万，男女比例5:5<br>原属于百度旗下产品，所谓背靠大树好乘凉，百度资源也许是该产品使用量奇高的原因之一。百度搜索题目，很多只能作业帮查看，同时也有恶意引导下载</p>
+<p>2、产品定位及目标用户<br>聚焦中小学教育，解决作业答疑的需求，目标用户是中小学生</p>
+<p>3、核心功能<br>拍照搜题、作业帮一课、一对一辅导、古文助手、作文搜索等。在作业帮，学生可以通过拍照、语音等方式得到难题的解析步骤、考点答案；可以通过作业帮一课直播课堂，与教师互动学习；可以迅速发现自己的知识薄弱点，精准练习补充；可以观看课程直播，手机互动学习；也可以连线老师在线一对一答疑解惑；有社区答题学生之间可以互动</p>
+<p>4、信息架构<br>底部Tab的形式划分应用的几大核心功能和账户体系</p>
+<p><img src="/img/竞品分析之产品篇/作业帮1.png" alt="作业帮1"></p>
+<p><img src="/img/竞品分析之产品篇/作业帮2.png" alt="作业帮2"></p>
+<p>拥有单独游戏化模块——脑力竞技场。模块内设计风格较为鲜明</p>
+<p><img src="/img/竞品分析之产品篇/作业帮3.png" alt="作业帮3"></p>
+<p>游戏化学习模块有几个特点：<br>1）有排行榜、交易货币、每日任务、好友、商城模块<br>2）每日任务可以获得金币，金币用来购买对战答题时使用的道具<br>3）有体力限制，每次答题会消耗体力，好友之间可以相互送体力<br>4）好友为远关系，可邀请添加陌生人为好友</p>
+<p>5、视觉设计<br>因为作业帮用户面向的是小学、初中高中的学生，加上搜题更是以年级较高的学生为主，设计风格简约成熟些，以白色为主，彩色辅助。</p>
+<p><img src="/img/竞品分析之产品篇/作业帮4.png" alt="作业帮4"></p>
+<p>基本型带圆角，基本型的执行算是较为统一的。其中部分线性图标也遵循了圆角的设计</p>
+<p>6、产品优缺点</p>
+<p>优点<br>a.搜题入口放在首屏，用户打开产品就能马上使用，以最少的操作成本满足最迫切的需求<br>b.社交因素的增加，丰富产品的内容维度</p>
+<p>缺点<br>a.社区是把双刃剑，孩子的社区是否良性？作业问答社区，发布的问题几乎都没有人回答</p>
+<h2 id="服务型"><a href="#服务型" class="headerlink" title="服务型"></a>服务型</h2><p>着重介绍几款以内容服务为主的产品，目的为探索青少学习产品的趣味性</p>
+<font color="#0365C0"> 洋葱数学－学习可以如此简单！</font>
+
+<p>1、市场数据<br>App Store 教育排行榜 200，日均下载量2000左右，安卓平台累计下载量 3727万。日均独立设备数7万，男女比例5:5</p>
+<p>2、产品定位策略及目标用户<br>以有趣的学习视频辅导中小学数学、物理，用户年龄在9岁以上，主要是初中生</p>
+<p>3、核心功能<br>洋葱数学将国家对初中生的教学大纲中的知识点制作成一系列的视频课程（与教材同步），每个视频都用有趣的视频语言来对教纲中的某个知识点进行详细的解释与阐述，并会在视频中穿插练习题。而后还会有课后练习与章节测试题，做错的题目会自动进入错题本，方便学生以后复习。</p>
+<p>4、信息结构<br>导航是底部Tab的形式</p>
+<p><img src="/img/竞品分析之产品篇/洋葱数学1.png" alt="洋葱数学1"></p>
+<p><img src="/img/竞品分析之产品篇/洋葱数学2.png" alt="洋葱数学2"></p>
+<p>5、设计风格<br>蓝色为主色调，各类图标插画使用的是扁平风格，字体偏圆</p>
+<p><img src="/img/竞品分析之产品篇/洋葱数学3.png" alt="洋葱数学3"></p>
+<p>6、产品优缺点<br>优点<br>a.趣味性：能让青春期的初中生真正产生兴趣、感觉好玩的产品，他们才会真正使用。<br>b.操作简单：几乎不需要学习成本，一看就知道怎么用。<br>c.便于碎片时间学习：无论是趣味学习视频，还是测验题，都是短小精悍的5分钟以内，很适合学生利用碎片时间学习，扩充了用户的学习场景。</p>
+<p>缺点<br>a.从教学角度讲，仅仅是视频的方式，没有知识点的总结归纳，没有真人的辅导，数学物理学科很难达到真学习提高的目的。<br>b.在互动上略显不足，仅有一个好友列表，好友申请，无比较机制，也无好友间的排行榜，使得的好友功能略显鸡肋。<br>c.在以视频为核心的资源上，在各种用户评论中多提到，教材不完整，知识点不完整的问题。</p>
+<font color="#0365C0"> RunFox狐狸快跑-少儿英语启蒙 </font>
+
+<p>1、市场数据<br>App Store 教育排行榜 45，往日日均下载量200左右，遇到应用推荐高峰时出现日均下载3万。无安卓版本。</p>
+<p>2、产品定位策略及目标用户<br>产品以轻度的任务模式，激发孩子自己产生学习的兴趣，沉浸式的游戏体验，创造了一个虚拟的语言环境。目标用户4+的孩子</p>
+<p>3、核心功能<br>狐狸快跑最核心的亮点就是语音识别对话，整个学习宛如在看动画片。在故事对话过程中，会由其他角色适时的引导儿童进行朗读发音，读音正确了才会进入新的剧情。<br>课时的设计控制在 20-30 分钟之内，完成之后，需要等到第二天才能解锁新章节，留有悬念，循序渐进，更避免沉迷。<br><img src="/img/竞品分析之产品篇/狐狸快跑1.png" alt="狐狸快跑1"></p>
+<p>4、信息结构<br><img src="/img/竞品分析之产品篇/狐狸快跑2.png" alt="狐狸快跑2"></p>
+<p>5、视觉设计<br>设计风格鲜明，课程动画插画风格，充满动画的趣味。功能模块入口用色鲜艳。装扮商城部分，装扮设计略显不足。</p>
+<p>6、产品优缺点<br>优点：<br>最核心的亮点就是语音识别对话，互动性极强<br>缺点：<br>a、首先是内容并不是符合孩子的年龄阶段性，<br>b、动画全程全英文，并且内容部分单词并不是很简单，小朋友会不理解，不知道在说什么，也无帮助功能。适合有基础的小朋友</p>
+<font color="#0365C0"> 洪恩识字 </font>
+
+<p>1、市场数据<br>手机端 App Store 教育排行榜 55 ，iPad端  App Store 教育排行榜 14，日均下载在5000左右。安卓市场总下载累计44万。日均独立设备 2万。</p>
+<p>2、产品定位策略及目标用户<br>产品以轻度的任务模式，激发孩子自己产生学习的兴趣，沉浸式的游戏体验，创造了一个虚拟的语言环境。目标用户4+的孩子</p>
+<p>3、核心功能<br>以体验地图的形式，学习1000多个汉字，每个字根据其字形、字义设计了“玩、认、读、写”等识字环节。设有不同的主题，一个主题学完才能进入下一主题，<br>玩：孩子在游戏中不断接受汉字刺激，提高对汉字符号的敏感性，激发自主记忆兴趣。<br>认：把抽象的汉字变成形象的绘画，开发孩子的右脑形象思维和形象记忆。<br>练：孩子在游戏环境中自由练习，完成游戏里设置的任务，学以致用，巩固记忆。<br>写：孩子通过描摹汉字笔画，进一步认识汉字图形结构，留存学习记忆。</p>
+<p><img src="/img/竞品分析之产品篇/洪恩识字1.png" alt="洪恩识字1"></p>
+<p><img src="/img/竞品分析之产品篇/洪恩识字2.png" alt="洪恩识字2"></p>
+<p><img src="/img/竞品分析之产品篇/洪恩识字3.png" alt="洪恩识字3"></p>
+<p>4、设计风格<br>动画形式，颜色鲜艳明亮，符合儿童的喜好</p>
+<p><img src="/img/竞品分析之产品篇/洪恩识字4.png" alt="洪恩识字4"></p>
+<p>5、产品优缺点<br>优点<br>a.主题丰富，寓教于乐，丰富的场景和设定是一大亮点<br>b.界面简单易用，以动画形式展示，符合儿童的认知特点<br>c.课程具有层次性，每5个字有复习环节，遵循教育循序渐进的原则<br>d.拥护学习报告，方便家长及时了解孩子的学习情况</p>
+<p>缺点：<br>a.很多识字游戏宝宝不明白要怎么玩，需要家长帮忙各种尝试<br>b.核心功能单一，游乐场、漫画等功能并无更多新意<br>c.与同类识字产品相比，学习环节缺少“读”的环节</p>
+<h2 id="教育信息化型"><a href="#教育信息化型" class="headerlink" title="教育信息化型"></a>教育信息化型</h2><font color="#0365C0"> 作业盒子小学学生端 </font>
+
+<p>1、市场数据<br>手机端 App Store 教育排行榜 12 ，iPad端  App Store 教育排行榜 13，日均下载在1万以上。安卓市场总下载累计1亿。日均独立设备 558万。</p>
+<p>2、产品定位策略及目标用户<br>通过接管作业场景，作业盒子希望连接老师与学生，记录、生成学生的学习知识图谱。目标用户公立学校小学生</p>
+<p>3、核心功能<br>作业盒子的基础功能，是为公立学校的老师和学生题库题库和课堂作业管理解决方案，同时学生可以在产品上提交老师布置的作业，然后由老师完成批改、线上答疑等工作。除此之外之外有丰富的学习模块，可供学生使用。</p>
+<p><img src="/img/竞品分析之产品篇/作业盒子1.png" alt="作业盒子1"></p>
+<p>4、信息结构<br>导航是底部Tab的形式，除去作业、学堂、班群，是老师与学生互动的模块外，首页有丰富的模块</p>
+<p>布克同步练系列，有语数英三个学科，不同的学科有不同的场景设定<br>如数学是爱丽丝梦游仙境、语文是埃及沙漠、英语是海盗航海<br>通过做测验题答题闯关</p>
+<p><img src="/img/竞品分析之产品篇/作业盒子2.png" alt="作业盒子2"></p>
+<p><img src="/img/竞品分析之产品篇/作业盒子3.png" alt="作业盒子3"></p>
+<p><img src="/img/竞品分析之产品篇/作业盒子4.png" alt="作业盒子4"></p>
+<p><img src="/img/竞品分析之产品篇/作业盒子5.png" alt="作业盒子5"></p>
+<p>5、视觉设计<br>扁平风格，已蓝色为主色调，首页各学习模块，色彩多样，设定丰富</p>
+<p><img src="/img/竞品分析之产品篇/作业盒子6.png" alt="作业盒子6"></p>
+<p>6、产品优缺点<br>优点:<br>a.由作业入手,减轻教师批改作业压力,增加教师与学生、学生与学生沟通机会,有效串联学生-教师之间联系。<br>b.课外学习部分，场景设定非常丰富，形式多样<br>缺点:<br>作业提交只适合需要一个答案的题目,有详细步骤的题目无法完成。需要强大的关系背书才能让老师班级统一使用。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/img/竞品分析之产品篇/表.png" alt="表"></p>
+<p>总体来说趣味性的青少教育产品包含一下几类机制：</p>
+<p>1、活泼卡通设计风格<br>用色比较鲜明，有固定的卡通形象做引导和帮助，产品伴有有趣悦耳的背景音乐</p>
+<p>2、货币体系<br>通过学习知识（看书／答题等形式）获得类似金币、宝石这类游戏中的流通货币，货币可用于某种用途，或种树，或装扮，或养宠物</p>
+<p>3、装扮商城<br>这类装扮机制适合1-4年级，和4年级的各类学生群体，商城需要流通货币来购买物品，货币可以通过任务获得</p>
+<p>4、好友机制<br>大致分为两类，一类的微信qq好友通过邀请添加的强关系，一种是陌生人添加的弱关系，好友衍生出来好友排行榜，好友比拼，好友送体力等，目前好友聊天还很少见，或许是因为教育产品若构建较强的好友体系并不是很明智的选择</p>
+<p>5、排行榜<br>通常是对学习数据（如完成任务数量，学习等级，学习时长等等）的排行，排行榜的维度有很多，可以分地域，分好友，分年级</p>
+<p>6、社区<br>社区比较少见，即使是社区也是学习相关的内容，以作业帮为例内容大多是PGC，用户之间的互动只能通过问作业的形式</p>
+<p>7、打卡签到<br>各种类型的产品都或多或少设置了打卡签到，打卡签到普遍采用的规则是连续签到获得某种奖励，目的是为了促活</p>
+<p>8、等级体系<br>和账号体系相关，账号设有等级，需要完成一系列任务后可以升级，升级后可解锁更多服务。单纯的升级也存在，但是很少，有点类似游戏的升级，升级就只是升级</p>
+<p>9、成就收集<br>完成任务可以获得成就奖励，奖励可以是某种具体的物品（如勋章／卡片），也可以是某种代替物品（如星星，星星用于解锁更多服务）</p>
+<p>10、对战比拼<br>分为两种一是离线对战，提供两个比拼的线上工具，一种是在线对战，可以陌生人切磋，形式是答题，结果可以获得各种奖励，其中的规则玩法不同的产品有各自的特色</p>
+<p>11、限制机制<br>体力限制，通常进行游戏化的学习需要消耗体力，而体力是通过时间积累获得，没有体力就不能玩，也是另一方面限制了小朋友长时间沉迷</p>
+<p>12、家长锁<br>出现在比较低龄的产品中，基本原则是给出成人才能看到的文字，让家长去操作</p>
+<p>以上，分析游戏化学习产品的特点中能看到，其实大部分大家都能想到，各个平台也尽力在做，差异化就在“规则”部分，形式、和参与度也决定了用户是否愿意留在这里学习。</p>
+<p>目标<br>获得知识，学到东西，而不只是完成所有课程</p>
+<p>规则<br>a.学习的形式（视频/图文/观点交流等）<br>b.学习完成的实践和考核<br>c.其他激励学习、参与、持续参与的激励系统</p>
+<p>自愿参与<br>a.课程质量，能听懂有趣还有用<br>b.能得到学习的认证/证明,如优秀的测验时间/成绩之类展示<br>c.学费／学习时间在可接受的范围</p>
+<p>另一方面，趣味性、游戏化并不是不是说把等级、徽章、积分、排行榜往产品里一放，就是游戏化了。游戏化需要满足产品和商业上的目标，而不是为了“游戏化”而使用某些游戏形式或者设计得像个游戏。</p>
+<h2 id="一些看法"><a href="#一些看法" class="headerlink" title="一些看法"></a>一些看法</h2><p>1、内容服务着手是拉开差距的切口，从APP产品形态来看，多数K12教育APP的架构为工具+内容服务。其中，工具部分仰仗技术优势，如拍图解题、语音识别等功能;内容部分则依靠自制优质内容与竞争者拉开差距</p>
+<p>2、不同年龄做差异化，不同年龄的孩子关注的事情不同，从所列产品中也能看到，洋葱数学与洪恩识字的视觉和设定能看到很大的差别。同时家长关心的内容也不同。低年龄段（1~4年级）学生的家长比较关心孩子身体健康、心理健康，培养孩子的兴趣，而高年龄段（＞4年级）学生的家长会更加迫切的关注孩子的成绩。所以我们在做内容时也应该考虑年龄的差异化</p>
+<p>3、趣味性的学习需要慎重有度，即使是为了增加趣味性是的学习游戏化，也应该有个边界，因为本身归根到底还是教育产品学习产品，趣味性的部分既要做出差异化，又要适度。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/10/01/2017年中复盘/" rel="next" title="2017年中复盘">
+                <i class="fa fa-chevron-left"></i> 2017年中复盘
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/04/24/竞品分析之设计篇/" rel="prev" title="竞品分析之设计篇">
+                竞品分析之设计篇 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Zhangyan</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#详细分析"><span class="nav-number">2.</span> <span class="nav-text">详细分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#平台型"><span class="nav-number">2.1.</span> <span class="nav-text">平台型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#工具型"><span class="nav-number">2.2.</span> <span class="nav-text">工具型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#服务型"><span class="nav-number">2.3.</span> <span class="nav-text">服务型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#教育信息化型"><span class="nav-number">2.4.</span> <span class="nav-text">教育信息化型</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一些看法"><span class="nav-number">3.1.</span> <span class="nav-text">一些看法</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zhangyan</span>
+
+  
+</div>
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
