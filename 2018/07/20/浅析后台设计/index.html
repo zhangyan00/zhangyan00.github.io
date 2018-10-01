@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑 前台——货柜后台——服务员  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步">
+<meta name="description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知">
 <meta property="og:type" content="article">
 <meta property="og:title" content="浅析后台设计">
 <meta property="og:url" content="http://yoursite.com/2018/07/20/浅析后台设计/index.html">
 <meta property="og:site_name" content="Zhangyan的小站">
-<meta property="og:description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑 前台——货柜后台——服务员  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步">
+<meta property="og:description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/img/封面/浅析后台设计.png">
-<meta property="og:updated_time" content="2018-10-01T15:20:02.000Z">
+<meta property="og:updated_time" content="2018-10-01T16:21:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅析后台设计">
-<meta name="twitter:description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑 前台——货柜后台——服务员  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步">
+<meta name="twitter:description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知">
 <meta name="twitter:image" content="http://yoursite.com/img/封面/浅析后台设计.png">
 
 
@@ -305,7 +305,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  478
+                  822
                 </span>
               
 
@@ -321,7 +321,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  3
                 </span>
               
             </div>
@@ -345,7 +345,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="/img/封面/浅析后台设计.png" rel="gallery_cjmqfzagc0009e4s6o9psop61"
+                 href="/img/封面/浅析后台设计.png" rel="gallery_cjmqi482q0005pjs6s51kkki6"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/img/封面/浅析后台设计.png" itemprop="contentUrl"/>
               </a>
@@ -358,27 +358,30 @@
       
 
       
-        <h1 id="后台的本质"><a href="#后台的本质" class="headerlink" title="后台的本质"></a>后台的本质</h1><p>后台逻辑设计=产品<br>没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑</p>
-<p>前台——货柜<br>后台——服务员</p>
+        <h1 id="后台的本质"><a href="#后台的本质" class="headerlink" title="后台的本质"></a>后台的本质</h1><p>后台逻辑设计=产品<br>没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。</p>
 <p><img src="/img/浅析后台设计/后台的本质.png" alt="后台的本质"></p>
 <p>搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。</p>
 <h1 id="后台的设计"><a href="#后台的设计" class="headerlink" title="后台的设计"></a>后台的设计</h1><p>后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。</p>
 <p>后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知道系统中存在哪些角色的用户，不同信息之间有怎样的权限划分。</p>
-<p>设计系统是让用户更好的使用这个系统</p>
-<h1 id="方法步骤"><a href="#方法步骤" class="headerlink" title="方法步骤"></a>方法步骤</h1><p>后台有很多功能，因此</p>
+<p>设计系统是让用户更好的使用这个系统，在设计过程中必然需要考虑到角色和权限。</p>
+<h2 id="基本方法步骤"><a href="#基本方法步骤" class="headerlink" title="基本方法步骤"></a>基本方法步骤</h2><p>后台有很多功能，因此</p>
 <p>第一步：整理清楚分类和流程，保证功能准确、全面</p>
 <p>第二步：将功能整理出功能树形</p>
 <p>第三步：划分权限，为每个角色设计独立界面</p>
 <p>第四步：页面以信息为主，功能尽量隐藏，功能隐藏在信息链接里。</p>
 <p>第五步：查缺补漏，满足增删改差功能，并实现功能的效率，严格对照流程图和脑图，确定系统的完整度。</p>
-<p>后台的基本模版，</p>
-<p>第一是人们的使用习惯，第二就是人的焦点注视始终是在左上开始。</p>
-<h1 id="具体解决效率问题的方法"><a href="#具体解决效率问题的方法" class="headerlink" title="具体解决效率问题的方法"></a>具体解决效率问题的方法</h1><p>1、搜索</p>
+<h2 id="具体解决效率问题的方法"><a href="#具体解决效率问题的方法" class="headerlink" title="具体解决效率问题的方法"></a>具体解决效率问题的方法</h2><p>1、搜索</p>
+<p>关键的字段可搜索，可以让使用者快速找到想要的信息</p>
 <p>2、批量操作</p>
-<p>3、筛选</p>
-<p>4、信息收纳和隐藏</p>
-<p>于某一部分内容都有高频的操作或查看，页面在设置的时候会有意识将这部分板块固定，不随其它内容上下和左右滑动。</p>
-<p>5、数据的可视化</p>
+<p>若有频率很高且数据量较大的操作时，考虑赋予批量操作，否则使用者将会画大量时间重复同一种操作，效率低下。</p>
+<p>3、筛选<br>给定一些维度的筛选，可以快速得到自己想要的，符合某些条件的信息，而不是一个一个查看</p>
+<p>4、列表分页和排序</p>
+<p>列表合理的排序能让使用者，快速按某一种维度进行数据的排序，而分页可以是信息按一页多少条的规则分页展示，找到位于10页中第6页的数据也会方便许多，提高了效率。</p>
+<p>5、信息收纳和隐藏</p>
+<p>因为设备、页面的尺寸是有限的。在设计表达海量信息的页面时就有使用一定的收纳和隐藏技巧。</p>
+<p>例如：某些内容有高频的操作或查看，页面在设置的时候有意识将这部分板块固定，不随其它内容上下和左右滑动。<br>善用hover，可以让使用者无需一个一个进入详情页，而是通过列表即可知道每一条数据的关键信息。</p>
+<p>6、数据的可视化</p>
+<p>后台的海量信息需要进行一定关键数据的提取和可视化展示。并不是所有人都能花大量时间在这散落的数据中找到关键，从而为工作内容进行指导。<br>例如：客户列表10000个，5个拜访了，如果没有5/10000的统计展示，使用者该多难统计到这个事实。</p>
 
       
     </div>
@@ -525,7 +528,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#后台的本质"><span class="nav-number">1.</span> <span class="nav-text">后台的本质</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#后台的设计"><span class="nav-number">2.</span> <span class="nav-text">后台的设计</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#方法步骤"><span class="nav-number">3.</span> <span class="nav-text">方法步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#具体解决效率问题的方法"><span class="nav-number">4.</span> <span class="nav-text">具体解决效率问题的方法</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#后台的本质"><span class="nav-number">1.</span> <span class="nav-text">后台的本质</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#后台的设计"><span class="nav-number">2.</span> <span class="nav-text">后台的设计</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本方法步骤"><span class="nav-number">2.1.</span> <span class="nav-text">基本方法步骤</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#具体解决效率问题的方法"><span class="nav-number">2.2.</span> <span class="nav-text">具体解决效率问题的方法</span></a></li></ol></li></ol></div>
             
 
           </div>
