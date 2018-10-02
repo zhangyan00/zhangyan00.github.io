@@ -79,19 +79,21 @@
 
 
 
-<meta name="description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知">
+<meta name="description" content="引子——什么是CRM客户关系管理简称CRM（Customer Relationship Management）。 从字义上看，它是指企业用CRM来管理与客户之间的关系。CRM是选择和管理有价值客户及其关系的一种商业策略，CRM要求以客户为中心的商业哲学和企业文化来支持有效的市场营销、销售与服务流程。如果企业拥有正确的领导、策略和企业文化，CRM应用将为企业实现有效的客户关系管理。 ————————">
 <meta property="og:type" content="article">
-<meta property="og:title" content="浅析后台设计">
-<meta property="og:url" content="http://yoursite.com/2018/07/20/浅析后台设计/index.html">
+<meta property="og:title" content="我理解的CRM">
+<meta property="og:url" content="http://yoursite.com/2018/06/11/我理解的CRM/index.html">
 <meta property="og:site_name" content="Zhangyan的小站">
-<meta property="og:description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知">
+<meta property="og:description" content="引子——什么是CRM客户关系管理简称CRM（Customer Relationship Management）。 从字义上看，它是指企业用CRM来管理与客户之间的关系。CRM是选择和管理有价值客户及其关系的一种商业策略，CRM要求以客户为中心的商业哲学和企业文化来支持有效的市场营销、销售与服务流程。如果企业拥有正确的领导、策略和企业文化，CRM应用将为企业实现有效的客户关系管理。 ————————">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/img/封面/浅析后台设计.png">
-<meta property="og:updated_time" content="2018-10-01T16:21:11.000Z">
+<meta property="og:image" content="http://yoursite.com/img/我理解的CRM/对内.png">
+<meta property="og:image" content="http://yoursite.com/img/我理解的CRM/对外.png">
+<meta property="og:image" content="http://yoursite.com/img/我理解的CRM/框架.png">
+<meta property="og:updated_time" content="2018-10-02T14:01:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="浅析后台设计">
-<meta name="twitter:description" content="后台的本质后台逻辑设计=产品没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。  搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。 后台的设计后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。 后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知">
-<meta name="twitter:image" content="http://yoursite.com/img/封面/浅析后台设计.png">
+<meta name="twitter:title" content="我理解的CRM">
+<meta name="twitter:description" content="引子——什么是CRM客户关系管理简称CRM（Customer Relationship Management）。 从字义上看，它是指企业用CRM来管理与客户之间的关系。CRM是选择和管理有价值客户及其关系的一种商业策略，CRM要求以客户为中心的商业哲学和企业文化来支持有效的市场营销、销售与服务流程。如果企业拥有正确的领导、策略和企业文化，CRM应用将为企业实现有效的客户关系管理。 ————————">
+<meta name="twitter:image" content="http://yoursite.com/img/我理解的CRM/对内.png">
 
 
 
@@ -121,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/20/浅析后台设计/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/11/我理解的CRM/"/>
 
 
 
 
 
-  <title>浅析后台设计 | Zhangyan的小站</title>
+  <title>我理解的CRM | Zhangyan的小站</title>
   
 
 
@@ -244,7 +246,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/20/浅析后台设计/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/11/我理解的CRM/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zhangyan">
@@ -261,7 +263,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">浅析后台设计</h1>
+          <h1 class="post-title" itemprop="name headline">我理解的CRM</h1>
         
 
         <div class="post-meta">
@@ -273,8 +275,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-20T18:59:28+08:00">
-                2018-07-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-11T19:04:36+08:00">
+                2018-06-11
               </time>
             
 
@@ -305,7 +307,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  822
+                  1,077
                 </span>
               
 
@@ -321,7 +323,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  4
                 </span>
               
             </div>
@@ -340,48 +342,29 @@
 
       
       
-        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-          
-          
-            <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox"
-                 href="/img/封面/浅析后台设计.png" rel="gallery_cjmrskkmu0007y9s6ns6ravcr"
-                 itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
-                <img src="/img/封面/浅析后台设计.png" itemprop="contentUrl"/>
-              </a>
-            
-          
-
-          
-          </div>
-        </div>
-      
 
       
-        <h1 id="后台的本质"><a href="#后台的本质" class="headerlink" title="后台的本质"></a>后台的本质</h1><p>后台逻辑设计=产品<br>没有华丽的交互、没有华丽布界面布局，重要的是产品逻辑和业务流程。</p>
-<p><img src="/img/浅析后台设计/后台的本质.png" alt="后台的本质"></p>
-<p>搞清楚系统“展示”和“控制”的映射关系。前台的信息是后台提供的，后台对数据的操作，输入数据，会通过前台将数据展示出来。</p>
-<h1 id="后台的设计"><a href="#后台的设计" class="headerlink" title="后台的设计"></a>后台的设计</h1><p>后台来实现管理的作用，首先我们要明确后台管理的是什么，分为不同的管理目标。分类是后台设计的基本思维。</p>
-<p>后台设计首先要梳理业务流程，知道前后台的工作流程和操作步骤之间的关系，知道系统中存在哪些角色的用户，不同信息之间有怎样的权限划分。</p>
-<p>设计系统是让用户更好的使用这个系统，在设计过程中必然需要考虑到角色和权限。</p>
-<h2 id="基本方法步骤"><a href="#基本方法步骤" class="headerlink" title="基本方法步骤"></a>基本方法步骤</h2><p>后台有很多功能，因此</p>
-<p>第一步：整理清楚分类和流程，保证功能准确、全面</p>
-<p>第二步：将功能整理出功能树形</p>
-<p>第三步：划分权限，为每个角色设计独立界面</p>
-<p>第四步：页面以信息为主，功能尽量隐藏，功能隐藏在信息链接里。</p>
-<p>第五步：查缺补漏，满足增删改差功能，并实现功能的效率，严格对照流程图和脑图，确定系统的完整度。</p>
-<h2 id="具体解决效率问题的方法"><a href="#具体解决效率问题的方法" class="headerlink" title="具体解决效率问题的方法"></a>具体解决效率问题的方法</h2><p>1、搜索</p>
-<p>关键的字段可搜索，可以让使用者快速找到想要的信息</p>
-<p>2、批量操作</p>
-<p>若有频率很高且数据量较大的操作时，考虑赋予批量操作，否则使用者将会画大量时间重复同一种操作，效率低下。</p>
-<p>3、筛选<br>给定一些维度的筛选，可以快速得到自己想要的，符合某些条件的信息，而不是一个一个查看</p>
-<p>4、列表分页和排序</p>
-<p>列表合理的排序能让使用者，快速按某一种维度进行数据的排序，而分页可以是信息按一页多少条的规则分页展示，找到位于10页中第6页的数据也会方便许多，提高了效率。</p>
-<p>5、信息收纳和隐藏</p>
-<p>因为设备、页面的尺寸是有限的。在设计表达海量信息的页面时就有使用一定的收纳和隐藏技巧。</p>
-<p>例如：某些内容有高频的操作或查看，页面在设置的时候有意识将这部分板块固定，不随其它内容上下和左右滑动。<br>善用hover，可以让使用者无需一个一个进入详情页，而是通过列表即可知道每一条数据的关键信息。</p>
-<p>6、数据的可视化</p>
-<p>后台的海量信息需要进行一定关键数据的提取和可视化展示。并不是所有人都能花大量时间在这散落的数据中找到关键，从而为工作内容进行指导。<br>例如：客户列表10000个，5个拜访了，如果没有5/10000的统计展示，使用者该多难统计到这个事实。</p>
+        <h1 id="引子——什么是CRM"><a href="#引子——什么是CRM" class="headerlink" title="引子——什么是CRM"></a>引子——什么是CRM</h1><p>客户关系管理简称CRM（Customer Relationship Management）。</p>
+<p>从字义上看，它是指企业用CRM来管理与客户之间的关系。CRM是选择和管理有价值客户及其关系的一种商业策略，CRM要求以客户为中心的商业哲学和企业文化来支持有效的市场营销、销售与服务流程。如果企业拥有正确的领导、策略和企业文化，CRM应用将为企业实现有效的客户关系管理。</p>
+<p>————————摘自百度百科</p>
+<p>狭义上讲CRM就是处理企业和客户之间关系。</p>
+<h1 id="我理解的CRM"><a href="#我理解的CRM" class="headerlink" title="我理解的CRM"></a>我理解的CRM</h1><p>既然CRM就是处理企业和客户之间关系的工具，最重要的两要素就是：企业、客户。企业为盈利为目的，服务于客户。</p>
+<p>但并不是所有客户都是精准客户，都会为企业买单。客户在我们看来一般称为销售线索，企业需要尽可能多的收集的潜在客户数量，才会有更多的机会转化为真正消费的客户。销售对线索的跟进，最好是积极、主动的，并努力产生转化。为此，多数企业都会安排线下销售团队，以及电话销售团队进行跟进，就是销售管理、线索管理</p>
+<p>为了避免某些销售拿着线索不积极跟进，随意就白白浪费资源，企业需要有一套机制实现线索的流动。公私海的概念被提出，私海是指已经分配到销售名下的线索，公海是指没有人认领跟进的线索。就又有了公海管理。</p>
+<p>有了销售人员对线索的销售过程，自然会有管理岗需要对一线管理层进行销售过程管理。管理是通过拜访记录、考勤记录等数据体现的。自此就又了数据管理或数据看板、甚至销售排行、和奖惩激励</p>
+<p>可客户又不单一是靠销售这一种工种来维护的，至此就又了学管、老师、财务、客服、运营的参与，并需要提供相对应模块进行使用。</p>
+<p>当然不同的行业，对CRM的要求并不相同，我也只是根据自己经历的项目，说出自己的一点见解。</p>
+<p>换个角度总结梳理一下CRM：</p>
+<p>对外关注用户的拉新和留存<br>对内提升效率，让个岗位人员更专注于本专业任务，为对外的客户服务提供更好的支持</p>
+<p>1、对内<br>企业内部之间管理，为对外管理做好支持<br>内部管理：销售、学管、老师、财务、技术支持，各个角色与权限赋予不同的功能和权限</p>
+<p><img src="/img/我理解的CRM/对内.png" alt="对内"></p>
+<p>2、对外<br>企业与客户之间的关系管理<br>外部管理：用户的获取和留存维护</p>
+<p><img src="/img/我理解的CRM/对外.png" alt="对外"></p>
+<p>加上全链路，从用户生命周期看业务，和企业全部业务线所有角色看，就会有一个整体框架</p>
+<p><img src="/img/我理解的CRM/框架.png" alt="框架"></p>
+<h1 id="后台与CRM的共性"><a href="#后台与CRM的共性" class="headerlink" title="后台与CRM的共性"></a>后台与CRM的共性</h1><p>后台产品，一般需求是技术或业务直接推进到需求。较少像 C 端那样通过用户画像、同理心等方法分析用户的行为，发掘用户需求。相比之下后台产品的需求是明确的，但是，需求的明确并不代表需求的简单。因为后台产品的业务逻辑的复杂，同时流程性会更强。大量的字段堆积及繁琐的操作都需要设计师去思考，将整个流程梳理清楚。在当前操作下哪个字段需要保留或者去除；业务流程如何跳转才能清晰引导用户；各种阈值如何有效显示；一个页面中操作会不会有关联或冲突，这些都需要建立在对业务的足够了解之上。</p>
+<p>CRM就是后台，在海量数据中CRM必然承担起较为负责的业务逻辑。但是既然属于后台的范畴，自然会有后台的特点。</p>
+<p>CRM是工具，工具的本质是提升效率。后台提升使用效率的方法都适用。</p>
 
       
     </div>
@@ -406,8 +389,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/06/11/我理解的CRM/" rel="next" title="我理解的CRM">
-                <i class="fa fa-chevron-left"></i> 我理解的CRM
+              <a href="/2018/04/24/竞品分析之设计篇/" rel="next" title="竞品分析之设计篇">
+                <i class="fa fa-chevron-left"></i> 竞品分析之设计篇
               </a>
             
           </div>
@@ -415,6 +398,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/07/20/浅析后台设计/" rel="prev" title="浅析后台设计">
+                浅析后台设计 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -528,7 +515,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#后台的本质"><span class="nav-number">1.</span> <span class="nav-text">后台的本质</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#后台的设计"><span class="nav-number">2.</span> <span class="nav-text">后台的设计</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本方法步骤"><span class="nav-number">2.1.</span> <span class="nav-text">基本方法步骤</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#具体解决效率问题的方法"><span class="nav-number">2.2.</span> <span class="nav-text">具体解决效率问题的方法</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#引子——什么是CRM"><span class="nav-number">1.</span> <span class="nav-text">引子——什么是CRM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我理解的CRM"><span class="nav-number">2.</span> <span class="nav-text">我理解的CRM</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#后台与CRM的共性"><span class="nav-number">3.</span> <span class="nav-text">后台与CRM的共性</span></a></li></ol></div>
             
 
           </div>
